@@ -1,0 +1,273 @@
+/* Header */
+.logo {
+  width: 160px;
+  display: inline-block;
+  padding: 30px;
+  object-fit: cover;
+}
+
+/* Extends */
+header {
+  display: flex;
+  align-items: center;
+}
+
+header .navegador {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  width: 60em;
+}
+header li a {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+header .nav-links {
+  list-style: none;
+}
+header .nav-links li {
+  display: inline-block;
+  padding: 0px 50px;
+}
+header .nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+header .nav-links li a:hover {
+  color: #52aff7;
+  transform: scale(1.1);
+}
+
+/* Fin Header */
+/* Footer */
+.info-footer {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  float: center;
+  padding: 20px;
+}
+
+.footer {
+  padding-top: 20%;
+}
+
+.footer-texto {
+  display: flex;
+  justify-content: center;
+}
+
+footer a img {
+  width: 95px;
+  float: left;
+  padding: 2rem;
+}
+
+footer a img:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease 0s;
+}
+
+/* Final de Footer */
+/* Icono de Whatsapp en la esquina */
+.whatsapp-icono {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 200;
+  padding: 1%;
+}
+.whatsapp-icono:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+}
+
+body {
+  background-color: #1e1e1e;
+  /* Home */
+  /* Final de Home */
+  /* Inicio de Productos */
+  /* Final de Productos */
+  /* Inicio de Nosotros */
+  /* Final de Nosotros */
+  /* Inicio de Contacto */
+  /* Final de Contacto */
+}
+body .container {
+  padding-top: 3%;
+}
+body .mi-encabezado {
+  font-family: "Antonio", sans-serif;
+  font-size: 60px;
+  color: white;
+  text-shadow: #2295ed 4px 4px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+body .home-productos {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+body .img-home {
+  text-align: center;
+  padding-bottom: 30px;
+}
+body .prueba {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 8%;
+}
+body section div img {
+  width: 120px;
+  margin-left: 2%;
+}
+body .info-home {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1%;
+}
+body .info-home a {
+  text-decoration: none;
+}
+body .info-home-2 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+body .info-home-2:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+  color: #52aff7;
+}
+body .productos-funko div img {
+  display: inline;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 6px;
+  width: 18%;
+}
+body .productos-funko-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .mi-encabezado-2 {
+  font-family: "Lato", sans-serif;
+  font-size: 70px;
+  text-shadow: 4px 4px #2295ed;
+  color: white;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+}
+body .texto-nosotros {
+  display: flex;
+  justify-content: center;
+}
+body .info-nosotros {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 18px;
+  word-spacing: 1, 5px;
+  padding-left: 10px;
+}
+body .info-mayorista {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 18px;
+  word-spacing: 1, 5px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+body .imagen-nosotros {
+  display: flex;
+  justify-content: center;
+}
+body .img-nosotros {
+  width: 200px;
+  padding: 2%;
+}
+body .mapa-nosotros {
+  display: flex;
+  justify-content: center;
+}
+body .redes-contacto {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding-left: 20px;
+  font-size: 30px;
+}
+body .contact-info {
+  color: white;
+}
+body label {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+body button {
+  color: white;
+}
+body .contact-form {
+  padding: 2%;
+}
+body .btn {
+  color: white;
+}
+body .btn:hover {
+  color: #64affe;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-color: #2b2a3f;
+  }
+  body .logo {
+    width: 120px;
+  }
+  body .mi-encabezado {
+    font-size: 30px;
+    text-shadow: #2295ed 2px 2px;
+  }
+  body .home-productos {
+    font-size: 14px;
+  }
+  body section div img {
+    width: 60px;
+    margin-left: 2%;
+    padding-bottom: 10px;
+  }
+  body .info-home {
+    display: flex;
+  }
+  body .info-home-2 {
+    font-size: 1rem;
+  }
+  body .productos-funko div img {
+    width: 80%;
+  }
+  body .productos-funko-2 {
+    flex-direction: column;
+  }
+  body .mi-encabezado-2 {
+    font-size: 45px;
+  }
+  body .info-nosotros {
+    font-size: 14px;
+  }
+  body .info-footer {
+    font-size: 12px;
+  }
+  body footer a img {
+    width: 50px;
+    padding: 1rem;
+  }
+}
+@media (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #64affe;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

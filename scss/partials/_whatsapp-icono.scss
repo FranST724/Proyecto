@@ -1,0 +1,13 @@
+/* Icono de Whatsapp en la esquina */
+.whatsapp-icono {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 200;
+    padding: 1%;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.3s ease 0s;
+    }
+}

@@ -1,0 +1,12 @@
+/* Mixin */
+
+@mixin encabezados ($font-s, $color, $font-f) {
+    font-size: $font-s;
+    color: $color;
+    font-family: $font-f;
+}
+
+h1 {
+    @include encabezados (60px, white, "Lato", sans-serif)
+}
+/* Final de Mixin */

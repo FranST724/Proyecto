@@ -1,0 +1,236 @@
+@import 'partials/header';
+@import 'partials/footer';
+@import 'variables/variables';
+@import 'variables/fonts';
+@import 'partials/whatsapp-icono';
+
+body {
+    background-color: $bg-color-desktop;
+
+
+/* Home */
+.container {
+    padding-top: 3%;
+}
+
+.mi-encabezado {
+    font-family: $head-font;
+    font-size: 60px;
+    color: $text-color;
+    text-shadow: $text-shadow 4px 4px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.home-productos {
+    font-family: $text-font;
+    font-size: 20px;
+    color: $text-color;
+    text-align: center;
+}
+
+.img-home {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.prueba {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8%;
+}
+
+section div img {
+    width: 120px;
+    margin-left: 2%;
+}
+
+.info-home {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.info-home-2 {
+    font-family: $text-font;
+    color: $text-color;
+    font-size: 2rem;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.3s ease 0s;
+        color: $text-hover;
+    }
+}
+/* Final de Home */
+
+/* Inicio de Productos */
+
+.productos-funko div img {
+    display: inline;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 6px;
+    width: 18%;
+}
+
+.productos-funko-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Final de Productos */
+
+/* Inicio de Nosotros */
+.mi-encabezado-2 {
+    font-family: $text-font;
+    font-size: 70px;
+    text-shadow: 4px 4px $text-shadow;
+    color: $text-color;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-nosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.info-nosotros {
+    font-family: $footer-font;
+    color: white;
+    font-size: 18px;
+    word-spacing: 1,5px;
+    padding-left: 10px;
+}
+
+.info-mayorista {
+    font-family: $footer-font;
+    color: white;
+    font-size: 18px;
+    word-spacing: 1,5px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-nosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.img-nosotros {
+    width: 200px;
+    padding: 2%;
+}
+
+.mapa-nosotros {
+    display: flex;
+    justify-content: center;
+}
+/* Final de Nosotros */
+
+/* Inicio de Contacto */
+
+.redes-contacto {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.contact-info {
+    color: white;
+}
+
+label {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    color: white;
+}
+
+.contact-form {
+    padding: 2%;
+}
+
+.btn {
+    color: white;
+}
+
+.btn:hover {
+    color: rgb(100, 175, 254);
+}
+/* Final de Contacto */
+}
+
+@media (max-width: 400px) {
+    body {
+        background-color: $bg-color-mobile;
+
+        .logo {
+            width: 120px;
+        }
+
+        .mi-encabezado {
+            font-size: 30px;
+            text-shadow: $text-shadow 2px 2px;
+        }
+
+        .home-productos {
+            font-size: 14px;
+        }
+
+
+        section div img {
+            width: 60px;
+            margin-left: 2%;
+            padding-bottom: 10px;
+        }
+
+        .info-home {
+            display: flex;
+        }
+        .info-home-2 {
+            font-size: 1rem;
+        }
+
+        .productos-funko div img {
+            width: 80%;
+        }
+
+        .productos-funko-2 {
+            flex-direction: column;
+        }
+
+        .mi-encabezado-2 {
+            font-size: 45px;
+        }
+
+        .info-nosotros {
+            font-size: 14px;
+        }
+
+        .info-footer {
+            font-size: 12px;
+        } 
+        footer a img {
+            width: 50px;
+            padding: 1rem;
+        }
+    }
+}
+
+@media (min-width: 401px) and (max-width:960px) {
+    body {
+        background-color: $bg-color-tablet;
+    }
+}

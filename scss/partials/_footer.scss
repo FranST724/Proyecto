@@ -1,0 +1,30 @@
+@import '../variables/fonts';
+
+/* Footer */
+.info-footer {
+    font-family: $footer-font;
+    color: $text-color;
+    float: center;
+    padding: 20px;
+}
+
+.footer {
+    padding-top: 20%;
+}
+
+.footer-texto {
+    display: flex;
+    justify-content: center;
+}
+
+footer a img {
+    width: 95px;
+    float: left;
+    padding: 2rem;
+}
+
+footer a img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease 0s;
+}
+/* Final de Footer */
